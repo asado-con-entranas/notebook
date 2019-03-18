@@ -9,3 +9,9 @@ for(int i=0;i<n;i++)
   if(i==asdsad)
    
 ```
+
+```python
+
+x in range(1,n)
+   
+```
