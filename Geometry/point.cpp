@@ -1,7 +1,7 @@
 const double EPS=1e-9;
 struct pto{
 	double x,y;
-	pto(double x=0,double y=0):x(x),y(y)[]
+	pto(double x=0,double y=0):x(x),y(y){}
 	pto operator+(pto b){return pto(x+b.x,y+b.y);}
 	pto operator-(pto b){return pto(x-b.x,y-b.y);}
 	pto operator+(double s){return pto(x+s,y+s);}
